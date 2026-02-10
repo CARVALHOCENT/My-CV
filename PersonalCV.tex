@@ -1,0 +1,152 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.75in, right=0.75in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+% --- Formatting ---
+\pagestyle{empty} % Remove page numbers
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+% Section line styling
+\titleformat{\section}{\large\bfseries\uppercase}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{8pt}
+
+\begin{document}
+
+% --- Header ---
+\begin{center}
+    {\Huge \textbf{Salvador de Sousa Carvalho}} \\
+    \vspace{2pt}
+    {\footnotesize (last updated: 2026/02/09)}
+\end{center}
+
+\vspace{0.2cm}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+    Lisboa, Portugal \\
+    (+351) 915 518 741 \\
+    \href{mailto:salvadorcarvalho2005@gmail.com}{salvadorcarvalho2005@gmail.com}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+    \raggedleft
+    \href{}{website coming} \\
+    \href{https://github.com/CARVALHOCENT}{github.com/SalvadorCarvalho} \\
+    \href{https://www.linkedin.com/in/salvadordesousacarvalho/}{https://www.linkedin.com/in/SalvadorCarvalho}
+\end{minipage}
+
+% --- About Section ---
+\section*{About}
+
+I am a 3rd-year Electrical and Computer Engineering student at Instituto Superior Técnico with a passion for solving problems using different skills. My academic journey is driven by a deep interest in Robotics, Home Automation, and IoT, where I actively explore the intersection of hardware and software to build smarter systems. Outside the classroom, I am a dedicated enthusiast of Lego Technic and Formula 1, hobbies that from young develop my interest for engineering and knowing how things works and are built.
+
+With a C1 Advanced certification in English from Cambridge and currently expanding my linguistic skills by learning German, I am prepared to collaborate in international and multicultural environments. I am always looking for new challenges that allow me to apply my technical background to real-world projects, whether they involve developing autonomous systems or optimizing automated environments.
+
+% --- Experience Section ---
+\section*{Experience}
+
+\noindent \textbf{Formula Student Lisboa}, Lisbon, Portugal \hfill Jan 2025 -- Aug 2025 \\
+\textit{Trainee}, Electronics and Software Department
+\begin{itemize}[leftmargin=15pt, label={$\bullet$}]
+    \item Designed and developed electronic schematics and PCB layouts for the vehicle's braking system sensors using \textbf{Altium Designer}.
+    \item Programmed microcontrollers in \textbf{C and C++} to process sensor data and implement real-time control logic for the braking system.
+    \item Performed high-precision \textbf{soldering} and hardware assembly, ensuring the reliability of electronic components in high-performance environments.
+    \item Collaborated in team communication and technical presentations, effectively reporting progress and system design specifications.
+\end{itemize}
+
+
+% --- Education Section ---
+\section*{Education}
+
+% Instituto Superior Técnico
+\noindent \textbf{Instituto Superior Técnico}, Lisbon, Portugal \hfill Sep 2023 -- Present \\
+\textit{Bachelor of Science in Electrical and Computer Engineering} 
+
+\vspace{8pt}
+
+% Colégio de São Miguel - Secundário
+\noindent \textbf{Colégio de São Miguel}, Fátima, Portugal \hfill Sep 2020 -- Jun 2023 \\
+\textit{Secondary Education, Ciências e Tecnologias} \hfill \textbf{GPA: 17.2/20} \\
+\textit{\small National Mathematics Exam: 18.1/20}
+
+\vspace{8pt}
+
+% Colégio do Sagrado Coração de Maria
+\noindent \textbf{Colégio do Sagrado Coração de Maria}, Fátima, Portugal \hfill Sep 2017 -- Jul 2020 \\
+\textit{3º Ciclo} 
+
+\vspace{8pt}
+
+% Colégio de São Miguel - 2º Ciclo
+\noindent \textbf{Colégio de São Miguel}, Fátima, Portugal \hfill Sep 2015 -- Jun 2017 \\
+\textit{2º Ciclo} 
+
+\vspace{8pt}
+
+% EB1 Reguengo do Fetal
+\noindent \textbf{EB1 Reguengo do Fetal}, Batalha, Portugal \hfill Sep 2010 -- Jul 2014 \\
+\textit{1º Ciclo}
+
+% --- Projects Section ---
+\section*{Projects}
+
+\noindent \textbf{Algorithms and Data Structures Projects} (\href{https://github.com/CARVALHOCENT/AED-Projetos}{GitHub}) \hfill 2025 
+\begin{itemize}[leftmargin=15pt, label={$\bullet$}]
+    \item Developed a series of high-performance applications in \textbf{C} focused on algorithmic efficiency and memory management. Implemented complex data structures including \textbf{Min-Heaps, Linked Lists, and Hash Tables}, and applied graph algorithms such as \textbf{Dijkstra} for shortest-path problems. Focused on optimizing time and space complexity ($O$-notation) to handle large datasets, following the rigorous standards of Instituto Superior Técnico.
+\end{itemize}
+
+\noindent \textbf{CS2 \& Faceit Discord Bot} (\href{https://github.com/CARVALHOCENT/Discord-Bot-CS2}{GitHub}) \hfill 2025 
+\begin{itemize}[leftmargin=15pt, label={$\bullet$}]
+    \item Developed a custom Discord bot using \textbf{discord.py} and \textbf{aiohttp} to integrate Faceit API data and live CS2 server status via the A2S protocol. Implemented real-time Elo tracking, match statistics retrieval, and an interactive server browser menu, alongside a voice-system module utilizing \textbf{FFmpeg and PyNaCl} for custom audio playback. Managed asynchronous backend tasks and environment configurations for seamless community interaction.
+\end{itemize}
+
+\vspace{6pt}
+
+\noindent \textbf{5-DOF Robotic Arm} (\href{https://github.com/CARVALHOCENT/RobotArm}{GitHub}, \href{https://www.youtube.com/watch?v=mb50L6tp-c0}{Video}, \href{https://github.com/CARVALHOCENT/RobotArm/blob/main/Projeto_Fisica_e_API.pdf}{Report}) \hfill 2023 
+\begin{itemize}[leftmargin=15pt, label={$\bullet$}]
+    \item Developed a 5-DOF robotic arm control system using Arduino and C++, featuring a Serial interface for real-time joint manipulation and user interaction. Implemented input validation and safety constraints for servo positioning via PWM to ensure smooth kinematic movement and hardware longevity. Documented the complete electronic circuit design and firmware architecture in a detailed technical report.
+\end{itemize}
+
+
+
+
+
+
+% --- Honors & Awards Section ---
+\section*{Honors \& Awards}
+
+\noindent \textbf{Merit Board}, Colégio do Sagrado Coração de Maria \hfill 2017/18, 2018/19, 2019/20 \\
+\noindent \textbf{Honor Board}, Colégio do Sagrado Coração de Maria \hfill 2017/18, 2018/19, 2019/20 \\
+\noindent \textbf{Merit Board}, EB1 Reguengo do Fetal \hfill 2013/14 \\
+
+% --- Certificates Section ---
+\section*{Certificates}
+
+\noindent \textbf{Cambridge Advanced English}, Cambridge English \hfill Aug 2023 \\
+\noindent \textbf{Cambridge First Certificate in English}, Cambridge English \hfill Jul 2022
+
+% --- Skills and Interests Section ---
+\section*{Skills and Interests}
+
+\begin{itemize}[leftmargin=1.5em, labelsep=0.5em]
+    \item[] Hard skills:
+    \begin{itemize}[label=\tiny$\bullet$, leftmargin=1.5em, noitemsep, topsep=2pt]
+        \item Programming:C/C++, MATLAB, Simulink,Fusion360
+        \item Tools \& Frameworks: Git, Docker, Linux, LTSPICE
+    \end{itemize}
+    \vspace{4pt}
+    \item[] Soft skills: Analytical \& Creative Thinking, Team Collaboration, Adaptability \& Communication
+    \item[] Language skills: Portuguese (native), English (C1), German (A1)
+    \item[] Interests: Lego and Formula1
+\end{itemize}
+
+\end{document}
